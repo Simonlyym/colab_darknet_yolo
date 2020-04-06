@@ -25,3 +25,7 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
+
+# ignore
+VOCdevkit/VOC2007/Annotations/
+VOCdevkit/VOC2007/JPEGImages/

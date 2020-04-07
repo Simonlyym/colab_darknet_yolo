@@ -4,7 +4,7 @@ import numpy as np
 print("==========Hat==========")
 Hrec, Hpre, Hap = voc_eval('./results/{}.txt', 
                './VOCdevkit/VOC2007/Annotations/{}.xml', 
-               './val.txt', 
+               '/content/colab_darknet_yolo/2007_val.txt', 
                'hat', '.')
 print("rec:", round(np.mean(Hrec), 4))
 print("pre:", round(np.mean(Hpre), 4))
@@ -13,7 +13,7 @@ print(" ap:", round(np.mean(Hap), 4))
 print("========person=========")
 Prec, Ppre, Pap = voc_eval('./results/{}.txt', 
                './VOCdevkit/VOC2007/Annotations/{}.xml', 
-               './val.txt', 
+               '/content/colab_darknet_yolo/2007_val.txt', 
                'person', '.')
 print("rec:", round(np.mean(Prec), 4))
 print("pre:", round(np.mean(Ppre), 4))

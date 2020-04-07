@@ -1,6 +1,6 @@
 classes= 2
-train  = /content/darknet/train.txt
-valid  = /content/darknet/2007_val.txt
-names = /content/darknet/data/voc.names
-backup = /content/darknet/backup
+train  = /content/colab_darknet_yolo/train.txt
+valid  = /content/colab_darknet_yolo/2007_val.txt
+names = /content/colab_darknet_yolo/data/voc.names
+backup = /content/colab_darknet_yolo/backup
 

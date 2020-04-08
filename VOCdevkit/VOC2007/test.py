@@ -6,6 +6,7 @@ train_percent = 0.9
 xmlfilepath = 'Annotations'
 txtsavepath = 'ImageSets/Main'
 total_xml = os.listdir(xmlfilepath)
+total_xml[3241:5242] = []
 
 num = len(total_xml)
 list = range(num)
